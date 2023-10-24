@@ -1,0 +1,194 @@
+ *{  
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+ul{
+	list-style: none;
+}
+li:hover{
+	cursor: pointer;
+}
+.right-icon{ 
+	padding-left: 5px;
+}
+.header-icon i:hover{
+	cursor: pointer;
+}
+.nav-link{
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+}
+.navbar img:hover{
+	cursor: pointer;
+}
+.nav-link:hover{ 
+	color: #c0392b !important;
+}
+/*search*/
+.call{
+	margin-left: 20px;
+}
+.search-wrap{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	flex-wrap:wrap;
+}
+.form-control{
+	width: 300px !important;
+}
+/*link*/
+.link{
+	background-color: #bdc3c7;
+	/*height: 100px;*/
+}
+.link{
+	display: flex;
+	justify-content: center;
+	padding-top: 25px;
+}
+.link-home a{
+	font-size: 23px !important;
+	text-decoration: none;
+	color: black;
+}
+.link-home:hover a{
+	text-decoration: none;
+	color: red !important;
+}
+.link-muiTen {
+	padding: 3px;
+    font-size: 20px;
+}
+.link-about a{
+	font-size: 23px !important;
+	text-decoration: none ;
+	color: black;
+}
+.link-about:hover a{
+	text-decoration: none !important;
+	color: red !important;
+}
+.link-home:hover{
+	cursor: pointer;
+	color: #c0392b;
+}
+.link-about:hover{
+	cursor: pointer;
+	color: #c0392b;
+}
+/*main*/
+.main-cont{
+	padding-top: 50px;
+}
+.main-row{
+	display: flex !important;
+}
+.main-img img{
+	width: 100% !important;
+}
+.main-btn{
+	margin: 25px 0
+}
+/*main2*/
+.main2{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.main2-col1{
+	
+}
+.fa-car-side{
+	font-size: 64px;
+}
+.main2-col1-title{
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+}
+.fa-credit-card{
+	font-size: 64px;
+}
+.main2-col2-title{
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+}
+.fa-internet-explorer{
+	font-size: 64px;
+}
+.main2-col3-title{
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+}
+/*pre-footer2*/
+.pre-footer-2-img{
+	height: 120px;
+	object-fit : cover;
+}
+/*footer*/
+.footer-icon{
+	margin-right: 10px;
+}
+.footer-title li:hover{
+	color: red;
+	text-decoration: none;
+}
+.footer-list li{
+	padding-top: 10px;
+}
+.footer-title{
+	margin-top : 40px;
+}
+.title b{
+	font-weight: 700;
+	font-size: 16px;
+}
+.footer-last{
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+img:hover{
+	cursor: pointer;
+}
+button:hover{
+	cursor: pointer;
+}
+@media screen and (min-width: 992px){
+	.navbar-toggler{
+		display: block;
+	}
+}
+/*tablet*/
+@media screen and (max-width: 991px){
+	.header-icon{
+		display: none;
+	}
+	.call{
+		margin-top: 10px; 
+		display: flex;
+    	justify-content: center
+	}
+	.main2-content{
+		flex-wrap: wrap;
+	}
+}
+/*mobile*/
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.topCate-wrap{
+		width:100%;
+		margin-top:15px;
+	}
+	.search-wrap{
+		display: block;
+	}
+	.form-inline{
+		justify-content: center;
+	}
+	.call{
+		margin-top: 10px;
+	}
+}

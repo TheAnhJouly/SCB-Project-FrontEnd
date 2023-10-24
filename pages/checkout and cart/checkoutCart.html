@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg">
+				<div class="logo">
+			  		<a href="../../Jouly.html"><img class="w-50" src="../../Jouly Bakery img/Jouly-logo.png" alt=""></a>
+			 	</div>
+			  	<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+			  	</button>
+			  	<div class="collapse navbar-collapse " id="navbarNavDropdown">
+			    	<ul class="navbar-nav ">
+				      	<li class="nav-item">
+				        	<a class="nav-link " href="../../Jouly.html">HOME</a>
+				    	</li>
+					    <li class="nav-item dropdown pl-4">
+					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+					          SHOP
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					          <a class="dropdown-item" href="#">Shop Location</a>
+					          <a class="dropdown-item" href="#">Single Product</a>
+					          <a class="dropdown-item" href="#">Information</a>
+					        </div>
+					    </li>
+				      	<li class="nav-item dropdown pl-4">
+				        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+				         	CUSTOM BLOCK
+				        	</a>
+				        	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					          	<a class="dropdown-item" href="#">Birthday Cakes</a>
+					          	<a class="dropdown-item" href="#">Daily cakes and breads</a>
+					          	<a class="dropdown-item" href="#">Mix your taste now</a>
+				       	 	</div>
+				      	</li>
+				      	<li class="nav-item dropdown pl-4">
+				        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+				        	BLOG
+				       	 	</a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					          	<a class="dropdown-item" href="#">Blog grid</a>
+					          	<a class="dropdown-item" href="../blog-detail/blog-detail2.html">Blog detail</a>
+					          	<a class="dropdown-item" href="../shop/shopOurProducts2.html">Our products</a>
+					        </div>
+				      	</li>
+				      	<li class="nav-item dropdown pl-4">
+				        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+				          PAGE
+				        	</a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					          <a class="dropdown-item" href="#">Make a order</a>
+					          <a class="dropdown-item" href="#">Daily foods</a>
+					          <a class="dropdown-item" href="../about/about2.html">About us</a>
+					        </div>
+				      	</li>
+				      	<li class="nav-item pl-4">
+				        	<a class="nav-link" href="#">CONTACT US</a>
+				      	</li>
+			    	</ul>
+			  	</div>
+			  	<div class="header-icon">
+				  	<i class="fa-solid fa-user-group pr-3"><a href=""></a></i>
+				  	<i class="fa-solid fa-heart pr-3"><a href=""></a></i>
+				  	<i class="fa-solid fa-cart-shopping"><a href=""></a></i>
+			  	</div>
+			</nav>
+		</div>
+	</div> 
+		<!-- search -->
+	<div class="container search-wrap" style="padding: 0">
+		<form class="form-inline my-2 my-lg-0 form-search">
+		    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		    <button class="btn btn-outline-success my-2 my-sm-0 btn-outline-danger" type="submit">Search</button>
+	    </form>
+	    <div class="call">
+	    	<h5>Call us : 0969540605</h5>
+	    </div>
+	</div>
+		<!-- link -->
+    <div class="link">
+    	<div class="link-home"><a href="../../Jouly.html">Home</a></div>
+    	<p class="link-muiTen">></p>
+    	<div class="link-about"><a href="checkoutCart.html">Check out</a></div>
+    </div>
+    <!-- main -->
+    <div class="main">
+    	<div class="container">
+      		<h2 class="cart-title">Shopping Cart</h2>
+      			<div class="cart row">
+      				<div class="col-lg-8">
+        				<div class="products ">
+			          		<div class="product row">
+			          			<div class="col-sm-4">
+				            		<img  src="../../Jouly Bakery img/img-2-applecake.jpg">
+				            	</div>
+					            <div class="product-info col-sm-8">
+					              	<p class="product-name">Apple Cake from Germany</p>
+					              	<h4 class="product-price"> $50</h4>
+					              	<p class="product-offer">-5%</p>
+					              	<p class="product-quantity">Quantity: <input value="1" name=""></p>
+					                <p class="product-remove">
+					                <i class="fa fa-trash" aria-hidden="true"></i>
+					                  	<span class="remove">Remove</span>
+					                </p>
+					            </div>
+			        		</div>
+				          	<div class="product row">
+				          		<div class="col-sm-4">
+					            	<img src="../../Jouly Bakery img/img-3-Pavlova.jpg">
+					            </div>
+					            <div class="product-info col-sm-8">
+					              	<p class="product-name">Pavlova from US</p>
+					              	<h4 class="product-price">$30</h4>
+					              	<p class="product-offer">-5%</p>
+					              	<p class="product-quantity">Quantity:: <input value="1" name=""></p>
+					               	<p class="product-remove">
+					                  	<i class="fa fa-trash" aria-hidden="true"></i>
+					                  	<span class="remove">Remove</span>
+					                </p>
+					            </div>
+				          	</div>
+				          	<div class="product row">
+				          		<div class="col-sm-4">
+				            		<img src="../../Jouly Bakery img/img-5-Mochi.jpg">
+				            	</div>
+				            	<div class="product-info col-sm-8">
+					              	<p class="product-name">Mochi Cake from Japan</p>
+					              	<h4 class="product-price">$20</h4>
+					              	<p class="product-offer">-5%</p>
+					              	<p class="product-quantity">Quantity:: <input value="1" name=""></p>
+					                <p class="product-remove">
+					                  	<i class="fa fa-trash" aria-hidden="true"></i>
+					                  	<span class="remove">Remove</span>
+					                </p>
+				            	</div>
+				          	</div>
+	        			</div>
+        			</div>
+			        <div class="cart-total col-lg-4">
+			          	<div>
+				            <p>
+				              	<span>Total Price</span>
+				              	<span>$ 100</span>
+				            </p>
+				            <p>
+				              	<span>Number of Items</span>
+				              	<span>3</span>
+				            </p>
+				            <p>
+				              	<span>You Save</span>
+				              	<span>$ 12</span>
+				            </p>
+			            		<a href="#">Proceed to Checkout</a>
+			          	</div>
+			        </div>
+			    </div>
+    <hr>
+
+    <div class="check-out">
+        <h2 class="check-out-title">Checkout</h2>
+        <div class="row">
+	          <div class="col-75">
+	            <div class="container">
+	              	<form id="form" method="get" accept-charset="utf-8">
+		                <div class="row">
+		                  	<div class="col-50">
+			                    <h3>Information</h3>
+			                    <label><i class="fa fa-user"></i> Full Name</label>
+			                    <input required type="text" id="fullname" name="name">
+			                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+			                    <input type="text" id="email-form" name="email">
+			                    <div class="emails error"></div>
+			                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+			                    <input type="text" id="adr" name="address">
+			                    <label for="city"><i class="fa fa-institution"></i> City</label>
+			                    <input type="text" id="city" name="city">
+
+			                     <div class="row">
+			                      	<div class="col-50">
+			                        	<label for="state">State</label>
+			                        	<input type="text" id="state" name="state" placeholder="NY">
+			                      	</div>
+			                      	<div class="col-50">
+			                        	<label for="zip">Zip</label>
+			                        	<input type="text" id="zip" name="zip" placeholder="10001">
+			                      	</div>
+			                    </div>
+			                    </div>
+			                    <div class="col-50">
+			                    	<h3>Payment</h3>
+			                    	<label for="fname">Accepted Cards</label>
+				                    <div class="icon-container">
+				                      	<i class="fab fa-cc-visa" style="color:navy;"></i>
+				                      	<i class="fab fa-cc-amex" style="color:blue;"></i>
+				                      	<i class="fab fa-cc-mastercard" style="color:red;"></i>
+				                      	<i class="fab fa-cc-discover" style="color:orange;"></i>
+				                      	<h3>Payment</h3>
+				                    </div>
+				                    <label for="cname">Name on Card</label>
+				                    <input name="nameOnCard" type="text" id="cname" name="cardname">
+				                    <label for="ccnum">Credit card number</label>
+				                    <input name="creditCard" type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+				                    <label for="expmonth">Exp Month</label>
+				                    <input name="Day" type="text" id="expmonth" name="expmonth" placeholder="September">
+			                    </div>
+			                    
+
+				                   
+				                    <div class="row">
+				                      	<div class="col-50">
+				                        	<label for="expyear">Exp Year</label>
+				                        	<input  name="Year" type="text" id="expyear" name="expyear" placeholder="2022">
+				                      	</div>
+				                      	<div class="col-50">
+				                        	<label for="cvv">CVV</label>
+				                        	<input name="CVV" type="text" id="cvv" name="cvv" placeholder="352">
+				                      	</div>
+				                    </div> 
+			               
+		                </div>
+		                <label>
+		                  	<input type="checkbox" name="sameadr">My information in the form is true
+		                </label>
+		                <button id="button-sub" class="btn-checkout">Continue to checkout</button>
+	              	</form>
+	            </div>
+	        </div>
+	    </div>
+    </div> 
+    <br>
+		</div>
+	</div>
+	<!-- footer -->	
+	<div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  footer-logo">
+                    <div class="logo w-50"><a href="../../Jouly.html"><img src="../../Jouly Bakery img/Jouly-logo.png"></a></div>
+                    <div class="footer-address">
+						<i class="fa-solid fa-house footer-icon"></i>
+						Bat Trang village , Hanoi city
+					</div>
+					<div>
+						<i class="fa-solid fa-phone footer-icon"></i>
+						0969540605
+					</div>
+					<div>
+						<i class="fa-solid fa-envelope footer-icon"></i>
+						nguyentheanh16052002@gmail.com
+					</div>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-title">
+                    <div class="title"><b>Information</b></div>
+                    <ul class="footer-list">
+                        <li><i class="fa fa-circle-o"></i>Delivery Information</li>
+                        <li><i class="fa fa-circle-o"></i>Helps & Faqs</li>
+                        <li><i class="fa fa-circle-o"></i>Orders</li>
+                        <li><i class="fa fa-circle-o"></i>Refund & Returns</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-title">
+                    <div class="title"><b>My Account</b></div>
+                    <ul class="footer-list">
+                        <li><i class="fa fa-circle-o"></i>Seach Terms</li>
+                        <li><i class="fa fa-circle-o"></i>Deliveries</li>
+                        <li><i class="fa fa-circle-o"></i>Store Location</li>
+                        <li><i class="fa fa-circle-o"></i>About me</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-title">
+                    <div class="title"><b>Our Company</b></div>
+                    <ul class="footer-list">
+                        <li><i class="fa fa-circle-o"></i>Delivery</li>
+                        <li><i class="fa fa-circle-o"></i>Legal Notice</li>
+                        <li><i class="fa fa-circle-o"></i>Blog</li>
+                        <li><i class="fa fa-circle-o"></i>About Us</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-title">
+                    <div class="title"><b>Opening Time</b></div>
+                    <ul class="footer-list">
+                        <li><i class="fa fa-circle-o"></i>Mon -Fri : 8AM - 10PM</li>
+                        <li><i class="fa fa-circle-o"></i>Sat : 9AM - 8PM</li>
+                        <li><i class="fa fa-circle-o"></i>Suns : 14PM - 18PM</li>
+                        <li><i class="fa fa-circle-o"></i>We work All The Holidays</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-last">
+    	Created by The Anh Jouly 
+    </div>
+	
+	<script src="https:cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+ 
+	
+	 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script> 
+
+    <script src="checkout.js"></script>
+</body>
+</html>

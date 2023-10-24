@@ -1,0 +1,264 @@
+ *{   
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+} 
+ul{  
+	list-style: none;
+}
+li:hover{
+	cursor: pointer;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.right-icon{
+	padding-left: 5px;
+}
+.header-icon i:hover{
+	cursor: pointer;
+}
+.nav-link{
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+}
+.navbar img:hover{
+	cursor: pointer;
+}
+.nav-link:hover{ 
+	color: #c0392b !important;
+}
+/*search*/
+.call{
+	margin-left: 20px;
+}
+.search-wrap{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	flex-wrap:wrap;
+}
+.form-control{
+	width: 300px !important;
+}
+/*link*/
+.link{
+	background-color: #bdc3c7;
+	padding-bottom: 20px;
+}
+.link{
+	display: flex;
+	justify-content: center;
+	padding-top: 25px;
+}
+.link-home a{
+	font-size: 23px !important;
+	color: black;
+}
+.link-muiTen{
+	padding: 3px;
+    font-size: 20px;
+}
+.link-about a{
+	font-size: 23px !important;
+	color: black;
+}
+.link-home:hover a{
+	cursor: pointer;
+	color: #c0392b;
+	text-decoration: none;
+}
+.link-about:hover a{
+	cursor: pointer;
+	color: #c0392b;
+	text-decoration: none;
+}
+/*main*/
+.main{
+
+}
+.main-col1-img img{
+	width: 100px;
+	height: 70px;
+}
+.main-col1-title1{
+	display: flex;
+	align-items: center;
+}
+.main1-col1-des1{
+	padding-left: 10px;
+}
+.main-col1-title1{
+	margin-top: 15px;
+}
+.main-col1-header2{
+	margin-top: 20px;
+}
+.main-col1-des2 p{
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.main-col1-des2 p:hover{
+	cursor: pointer;
+}
+.main-col2-img img{
+	width: 100%;
+}
+/*media*/
+.media-header{
+	margin: 50px 0;
+}
+.media-main{
+	border: 1px solid #ccc;
+}
+.media-main-img{
+	width: 25%;
+	padding-top: 5px;
+    padding-right: 20px
+}
+.media-main-img img{
+	width: 100%;
+}
+.d-flex{
+	margin-top:25px;
+	margin-left: 25px;
+}
+.mt-3{
+	margin-left: 165px;
+}
+.reply-header{
+	margin: 20px 0;
+}
+/*box-contract-us*/
+.box-contact-us{
+    padding: 100px 0;
+    background-color: #fff;
+}
+.box-contact-us .title{
+    color: #3B4A5E;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.box-contact-us hr{
+    max-width: 50px;
+    margin: 10px auto;
+    border: 0;
+    height: 2px;
+    background-color: #106fde;
+}
+.box-contact-us .desc-1{
+    color: #3B4A5E;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.box-contact-us .desc-2{
+    color: #9C9FAF;
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.contact-us-wrap label{
+    color: #3B4A5E;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-us-wrap .form-group{
+    margin-bottom: 10px;
+}
+.contact-us-wrap .form-group input{
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+.contact-us-wrap .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 177px;
+}
+.contact-us-wrap .btn-send{
+    background-color: #106fde;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+    padding: 7px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.contact-us-wrap .form-bottom{
+    display: flex;
+    justify-content: end;
+}
+/*footer*/
+.footer-icon{
+	margin-right: 10px;
+}
+.footer-title li:hover{
+	color: red;
+	text-decoration: none;
+}
+.footer-list li{
+	padding-top: 10px;
+}
+.footer-title{
+	margin-top : 40px;
+}
+.title b{
+	font-weight: 700;
+	font-size: 16px;
+}
+.footer-last{
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+img:hover{
+	cursor: pointer;
+}
+button:hover{
+	cursor: pointer;
+}
+@media screen and (min-width: 992px){
+	.navbar-toggler{
+		display: block;
+	}
+}
+/*tablet*/
+@media screen and (max-width: 991px){
+	.header-icon{
+		display: none;
+	}
+	.call{
+		margin-top: 10px; 
+		display: flex;
+    	justify-content: center
+	}
+}
+/*mobile*/
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.search-wrap{
+		display: block;
+	}
+	.form-inline{
+		justify-content: center;
+	}
+	.call{
+		margin-top: 10px;
+	}
+}
